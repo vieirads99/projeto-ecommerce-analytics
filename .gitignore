@@ -1,0 +1,17 @@
+# Dados gerados localmente (o notebook de geração recria o CSV)
+*.csv
+
+# Credenciais (nunca versionar)
+*.json
+!notebooks/*.ipynb
+client_secret*
+service-account*
+.env
+
+# Jupyter / Python / Sistema
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
+__MACOSX/
+Thumbs.db
